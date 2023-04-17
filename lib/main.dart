@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_page_view/email_plugin/ex_second.dart';
-import 'package:my_page_view/initial_pages/page_first.dart';
-import 'package:my_page_view/my_app.dart';
-import 'package:my_page_view/whatsapp_plugin/ex_first.dart';
 
 void main() {
   runApp(const MyApp());

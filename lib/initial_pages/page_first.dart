@@ -20,7 +20,7 @@ class PageFirst extends StatelessWidget {
                       pageBuilder: (BuildContext context,
                           Animation<double> animation,
                           Animation<double> secondaryAnimation) {
-                        return SecondPage();
+                        return const SecondPage();
                       },
                       transitionsBuilder: (BuildContext context,
                           Animation<double> animation,
@@ -38,7 +38,7 @@ class PageFirst extends StatelessWidget {
                       },
                     ));
               },
-              child: Text('Go to Second Page'))
+              child: const Text('Go to Second Page'))
         ],
       ),
     );

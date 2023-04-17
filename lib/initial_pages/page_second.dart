@@ -7,10 +7,10 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Second Page'),
+        title: const Text('Second Page'),
       ),
       body: Column(
-        children: [Text('Second Page')],
+        children: const [Text('Second Page')],
       ),
       backgroundColor: Colors.blueGrey,
     );
